@@ -1,4 +1,3 @@
-const date = document.querySelector("#datepicker").value;
 const API_KEY = import.meta.env.VITE_NASA_API_KEY;
 
 /*fetch(`https://api.nasa.gov/planetary/apod?api_key=${API_KEY}&date=${date}`)*/
@@ -23,9 +22,9 @@ function fetchNasaData(selectedDate) {
             let media = "";
 
             if (data.media_type === "image") {
-                media = `<img src="${data.url}" alt="${data.title}" style="max-width: 100%; height: auto;" />`;
+                media = `<img src="${data.url}" alt="${data.title}"/>`;
             } else if (data.media_type === "video") {
-                if (data.url.includes("youtube.com") || data.url.includes("youtu.be") || data.url.includes("vimeo.com")) {
+                if (data.url.includes("youtube")) {
                     media = `<iframe src="${data.url}" frameborder="0" allowfullscreen style="width: 100%; height: 400px;"></iframe>`;
                 } else {
                     media = `<video src="${data.url}" controls style="max-width: 100%;"></video>`;
