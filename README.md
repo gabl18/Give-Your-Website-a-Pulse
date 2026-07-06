@@ -3,7 +3,7 @@ Get signs from Space (or rather from NASA) that update every day. This website f
 
 ![alt text](image.png)
 
-Other than the guide, you can select previous dates to get the information about previous days. Also the .css styling is different to the guide because I wanted to try out some .css styling that I learned from doing the WebOS Mission. - What I noticed: Its sooo much faster to properly get a sketch of how you want to get the layout then doing it on the go. 
+Other than the guide, you can select previous dates to get the information about previous days. Also the .css styling is different to the guide because I wanted to try out some .css styling that I learned from doing the WebOS Mission. - What I noticed: Its sooo much faster to properly make a sketch beforehand of how you want to get the layout than doing it on the fly. 
 
 ![alt text](image-1.png)
 
