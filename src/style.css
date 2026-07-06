@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    max-width: 850px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -21,9 +21,9 @@ body {
     background: rgba(107, 60, 105, 0.7);
     border: 2px solid #b33aab;
     border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 10px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    padding: 22px;
+    margin-bottom: 12px;
+    box-shadow: 0 10px 30px rgba(120, 77, 142, 0.5);
     backdrop-filter: blur(8px);
 }
 
@@ -34,12 +34,14 @@ body {
 
 .header {
     text-align: center;
+    border-radius: 25px;
 }
 
 .header h1 {
     font-size: 2.8rem;
     color: white;
     text-shadow: 0 0 10px rgba(217, 0, 255, 0.3);
+    text-decoration: dotted #f3a6fb;
     margin-bottom: 8px;
 }
 
@@ -73,7 +75,7 @@ body {
     cursor: pointer;
 }
 
-#datepicker:focus {
+#datepicker:hover {
     border-color: #ff00f2;
 }
 
