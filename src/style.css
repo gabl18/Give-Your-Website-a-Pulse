@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+    background-color: #445683;
+    background-image: radial-gradient(circle at 50% 20%, #7570b9 0%, #284076 70%);
+    color: #f1f5f9;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.card {
+    background: rgba(107, 60, 105, 0.7);
+    border: 2px solid #b33aab;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+}
+
+.card:hover {
+    size: 10px;
+    border-color: #e600ff;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 0 0 10px rgba(217, 0, 255, 0.3);
+    margin-bottom: 8px;
+}
+
+.explenation {
+    color: #d4c4e9;
+}
+
+
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.date label {
+    font-weight: bold;
+    color: #c78deb;
+    font-size: 1.1rem;
+}
+
+#datepicker {
+    background: rgb(188, 172, 202);
+    border: 3px solid #c78deb;
+    color: #000000;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#datepicker:focus {
+    border-color: #ff00f2;
+}
+
+.api h1{
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    border-left: 4px solid #c78deb;
+    padding-left: 12px;
+}
+
+.api img,
+.api iframe,
+.api video {
+    width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+.api p {
+    color: #d4c4e9;
+    text-align: justify;
+}

@@ -2,6 +2,11 @@ const API_KEY = import.meta.env.VITE_NASA_API_KEY;
 
 /*fetch(`https://api.nasa.gov/planetary/apod?api_key=${API_KEY}&date=${date}`)*/
 
+const date_today = new Date().toISOString().split('T')[0];
+document.querySelector("#datepicker").setAttribute("max", date_today);
+
+
+
 function fetchNasaData(selectedDate) {
     const appDiv = document.querySelector("#app");
     appDiv.innerHTML = "<p>loading...</p>";
